@@ -1,15 +1,28 @@
 body
 {
-    background-color: snow;
+    background-color: dimgray;
 }
 
 li
 {
-    color:blue;
+    color: white;
+}
+ul{
+    color: red;
 }
 
 img
 {
     width: 10%;
     height: 10%;  
+}
+.fuera{
+    width: 300%;
+    height: 300%;  
+}
+.verdura{
+    background-color: tomato;
+}
+.carne{
+    background-color: black;
 }
