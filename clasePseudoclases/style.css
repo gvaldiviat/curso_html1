@@ -1,15 +1,15 @@
 .main-nav{
     margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
-    background-color: #13a4a4;
+    list-style: none; /* colocar "none" sirve para dejar sin puntos a las listas*/
+    padding-left: 0px; /*padding es una dimesion interna, un espacio interno en un contenedor como una especie de sangría*/
+    background-color: #13a4a4;/*agregar un color de fondo*/
 }
 
 .main-nav__item{
-    display: inline-block;
+    display: inline-block;/*menu de forma horizontal*/
 }
 
-.main-nav__item a{
+.main-nav__item a{/* a todas las etiquetas a que estan dentro de main-nav__item agregales esto: b */
     color: white;
     padding: 5px;
     border-radius: 2px;
@@ -17,7 +17,7 @@
     /*background-color: red;*/
 }
 
-.main-nav__item a:hover{/* hover: mouse sobre el elemento*/
+.main-nav__item a:hover{/* hover: mouse sobre el elemento*/ /*ESTO ES UNA PSEUDOCLASE, SE LLAMA CON :*/
     color: blue;
 }
 
@@ -25,8 +25,7 @@
     color:red;
 }
 
-.main-nav__item a::after{/*es para agregar un separador*/
-    /*con el simbolo :: se llama a un pseudeoelemento*/
+.main-nav__item a::after{/*ESTO ES UN PSEUDOELEMENTO, SE LLAMA CON ::*/
     content: " | ";
 }
 
