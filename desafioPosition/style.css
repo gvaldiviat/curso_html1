@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*--------------------------------------- */
+
+.contenedor{
+    font-size: 0.9rem;
+    margin: 0 auto;
+    width: 45%;
+    min-width: 100px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 20px;
+}
+
+.contenido {
+    
+    width: 35%;
+    min-width: 200px;
+    border: 2px solid black;
+    height: 25px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}

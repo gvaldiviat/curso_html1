@@ -1,0 +1,18 @@
+.nav {
+    position: absolute;
+    background-color: peachpuff;
+    right: 0;
+    
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo {
+    text-align: left;
+}
