@@ -1,11 +1,11 @@
-.main-nav{
+.main-nav{ /*agregar estilo al contenedor de nav*/
     margin-top: 10px;
     list-style: none; /* colocar "none" sirve para dejar sin puntos a las listas*/
     padding-left: 0px; /*padding es una dimesion interna, un espacio interno en un contenedor como una especie de sangría*/
     background-color: #13a4a4;/*agregar un color de fondo*/
 }
 
-.main-nav__item{
+.main-nav__item { /*agregar estilo a la distribucion de los items que estan dentro del nav (los li)*/
     display: inline-block;/*menu de forma horizontal*/
 }
 

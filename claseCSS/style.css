@@ -5,16 +5,17 @@ p
     font-size: 40px;
 }
 
-/* class */
+/* class  esto es una clase y se llama por un . (punto)*/
 .parrafo
 {
     color: red;
 }
 
-/* ID */
+/* ID esto es un id y se llama por un #*/
 #texto
 {
     color: yellow;
     font-size:  24px;
 }
 
+/*Ojo con los nombres de las class y de los ID porque son cosas diferentes y nos podemos confundir*/

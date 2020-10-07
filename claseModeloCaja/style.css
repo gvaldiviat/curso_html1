@@ -5,8 +5,8 @@
 }
 
 main {
-    width: 100%;
-    height: 500px;
-    border: 10px solid grey;
-    padding: 20px 35px;
+    width: 100%;/*que tan grande es esta etiqueta*/
+    height: 500px; /*que tan alto*/
+    border: 10px solid grey; /* color del borde*/
+    padding: 20px 35px; /* 20px es para arriba y abajo 35px es para izquierda y derecha*/
 }
