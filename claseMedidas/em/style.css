@@ -1,7 +1,7 @@
 .text-container {
-    font-size: 1.5em;
+    font-size: 1.5em; /*1em equivale a los 16px por defecto del html, por tanto 1.5em son 24px*/
 }
 
 .text-container div {
-    font-size: 1.5em;
+    font-size: 1.5em; /*aca toma el valor anterior que quedó en 24px y lo multiplica por 1.5 quedando en 36px*/
 }

@@ -1,7 +1,7 @@
 * { /* este es un selector universal*/
-    box-sizing: border-box; /*elimina el borde por defecto que aplica el navegador*/
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /*elimina el espacio por defecto que aplica el navegador*/
+    padding: 0;/*deja en cero el padding o espacio interno*/
+    margin: 0; /* deja en cero el margen o espacio externo*/
 }
 
 main {

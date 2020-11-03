@@ -1,18 +1,69 @@
-.nav {
-    position: absolute;
-    background-color: peachpuff;
-    right: 0;
-    
+/* esto es lo basico y obligatorio que debe ir en un proyecto si o si*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.nav li {
+html {
+    font-size: 62.5%; /*Con esto puedo facilmente convertir de rem a pixel considerando que 1rem equivale a 10 pixeles*/
+}
+
+/*-----------------------------------------*/
+.header {
+    background-color:grey;
+  }
+  .header__logo, .nav, .nav__list li  {
     display: inline-block;
-    font-size: 20px;
-    margin: 10px 0;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    margin: 5px;
+    
+  }
+   .header__logo img{
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px;
+    height: 100px;
+  }
+  .nav {
+    position: fixed;
+    right: 0;
+   
+  }
+  .nav__list {
+    list-style: none;
+    float: right;
+  }
+  .nav__list li a {
+    text-decoration: none;
+    color: white;
 
-#logo {
-    text-align: left;
-}
+   
+  }
+  .main {
+    height: 400px;
+    background-color: white;
+  }
+  .routes {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: green;
+  }
+  .routes__images img {
+    display: block;
+    margin: 30px 0;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .content {
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color:grey;
+  }
+  

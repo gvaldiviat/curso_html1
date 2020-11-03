@@ -7,13 +7,13 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /*Con esto puedo facilmente convertir de rem a pixel considerando que 1rem equivale a 10 pixeles*/
 }
 
 /*-----------------------------------------*/
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.6rem; /*1rem es una medida que equivale a 16px, y hace referencia siempre a lo que este establecida al inicio del html, esto es 16px por defecto*/
 }
 
 main div {

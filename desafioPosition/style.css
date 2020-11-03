@@ -18,16 +18,17 @@ html {
     background-color: gray;
     border-radius: 20px;
     margin-top: 50px;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: justify;
-    padding: 20px;
+    padding: 30px;
+    position: relative; 
 }
 
 .contenido {
     
     width: 35%;
     min-width: 200px;
-    border: 2px solid black;
+    border: 1px solid black;
     height: 25px;
     background-color: red;
     margin: 0 auto;
